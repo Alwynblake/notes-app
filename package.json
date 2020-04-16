@@ -1,0 +1,32 @@
+{
+  "name": "notes-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest",
+    "watch": "jest --watchAll",
+    "api": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alwynblake/notes-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alwynblake/notes-app/issues"
+  },
+  "homepage": "https://github.com/Alwynblake/notes-app#readme",
+  "dependencies": {
+    "is-url": "^1.2.4",
+    "minimist": "^1.2.5"
+  },
+  "devDependencies": {
+    "jest": "^25.3.0"
+  }
+}
